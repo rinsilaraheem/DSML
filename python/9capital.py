@@ -1,0 +1,7 @@
+f1=open("t1.txt","r")
+content=f1.read()
+f1.close()
+content=content.upper()
+f2=open("cap.txt","w")
+f2.writelines(content)
+f2.close()
